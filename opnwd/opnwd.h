@@ -5,6 +5,8 @@
 #ifndef SNAKE_OPNWD_H
 #define SNAKE_OPNWD_H
 
+namespace opnwd {
 void changeNewWindow();
+}
 
 #endif // SNAKE_OPNWD_H

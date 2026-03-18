@@ -4,6 +4,6 @@
 
 int main() {
 
-    changeNewWindow();
+    opnwd::changeNewWindow();
     return 0;
 }
