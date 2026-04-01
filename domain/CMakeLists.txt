@@ -1,0 +1,2 @@
+add_subdirectory(opennewwindow)
+add_subdirectory(setnewwindow)

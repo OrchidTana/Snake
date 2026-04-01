@@ -1,9 +1,9 @@
 //
 // Created by Laplace on 2026/3/18.
 //
-#include <iostream>
-#include "../opnwd.h"
+#include "domain/opennewwindow/opnwd.h"
 #include <SFML/Graphics.hpp>
+#include <iostream>
 
 namespace opnwd {
 void changeNewWindow() {
