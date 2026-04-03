@@ -1,2 +1,1 @@
-add_subdirectory(snake/opennewwindow)
-add_subdirectory(snake/setnewwindow)
+add_subdirectory(snake)

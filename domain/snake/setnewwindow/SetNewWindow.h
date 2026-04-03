@@ -2,12 +2,18 @@
 // Created by Laplace on 2026/3/19.
 //
 
-#ifndef SNAKE_SNW_H
-#define SNAKE_SNW_H
+#ifndef DOMAIN_SNAKE_SETNEWWINDOW_H
+#define DOMAIN_SNAKE_SETNEWWINDOW_H
 
 
-namespace snw {
+namespace domain{
+namespace snake {
+namespace setnewwindow {
+
 void setNewWindow();
+
+}
+}
 }
 
-#endif // SNAKE_SNW_H
+#endif // DOMAIN_SNAKE_SETNEWWINDOW_H
