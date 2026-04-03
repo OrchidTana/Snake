@@ -1,5 +1,5 @@
-#include "domain/opennewwindow/opnwd.h"
-#include "domain/setnewwindow/SetNewWindow.h"
+#include "domain/snake/opennewwindow/opnwd.h"
+#include "domain/snake/setnewwindow/SetNewWindow.h"
 #include <iostream>
 
 int main() {

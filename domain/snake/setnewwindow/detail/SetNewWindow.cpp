@@ -1,6 +1,6 @@
 #include <iostream>
 #include <optional>
-#include "domain/setnewwindow/SetNewWindow.h"
+#include "domain/snake/setnewwindow/SetNewWindow.h"
 #include <SFML/Graphics.hpp>
 
 namespace snw {

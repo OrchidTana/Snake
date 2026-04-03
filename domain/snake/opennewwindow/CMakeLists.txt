@@ -1,6 +1,5 @@
 set(open_new_window detail/OpenNewWindow.cpp
-        ../snake/main.cpp
-        ../threadpool/main.cpp)
+)
 
 find_package(SFML REQUIRED COMPONENTS Audio Network Graphics System Window)
 
