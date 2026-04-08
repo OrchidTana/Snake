@@ -52,9 +52,9 @@ void setNewWindow() {
       const float radius = circle.getRadius();
       const sf::Vector2f new_pos = circle.getPosition();
       if (common::math::doubleLess(new_pos.x - radius,0 - tangle_radius) ||
-          common::math::doubleLessEqual(new_pos.x + radius,MAX_X - tangle_radius) ||
+          !common::math::doubleLessEqual(new_pos.x + radius,MAX_X - tangle_radius) ||
           common::math::doubleLess(new_pos.y - radius,0 - tangle_radius) ||
-          common::math::doubleLessEqual(new_pos.y + radius,MAX_Y - tangle_radius) ) {
+          !common::math::doubleLessEqual(new_pos.y + radius,MAX_Y - tangle_radius) ) {
         window.close();
       }
 
